@@ -8,7 +8,8 @@
 *.suo
 *.xcodeproj
 *.xcworkspace
-*BuildData.uasset
+# Ignore all .uasset files that contain BuildData in their name
+*BuiltData*.uasset
 #################################
 # Unreal Engine Generated Files #
 #################################
